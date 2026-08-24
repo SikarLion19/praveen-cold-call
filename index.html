@@ -28,7 +28,7 @@
           through focused cold calling, prospecting and outbound sales, no high cost monthly 5000 USD BDR experment
         </p>
         <div class="actions">
-          <a class="button primary" href="mailto:thepraveenshekhawat11@gmail.com?subject=Cold%20Calling%20Inquiry">Book a conversation</a>
+          <button class="button primary" id="emailBtn1">Book a conversation</button>
           <a class="button secondary" href="https://wa.me/919105642425" target="_blank" rel="noopener">WhatsApp me</a>
         </div>
         <p class="micro">5+ years in sales & business development • USA, Europe & Australia outreach</p>
@@ -110,11 +110,25 @@
         <p>Tell me what you're selling, who you're targeting and where you want to sell. We'll see if it's a fit.</p>
       </div>
       <div class="contact-actions">
-        <a class="button light" href="mailto:praveen@praveencoldcall.com?subject=Cold%20Calling%20Inquiry">Email me</a>
+        <button class="button light" id="emailBtn2">Email me</button>
         <a class="button outline-light" href="https://wa.me/919105652425" target="_blank" rel="noopener">WhatsApp</a>
       </div>
     </section>
   </main>
+
+  <!-- Email Modal -->
+  <div id="emailModal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h3>Get in Touch</h3>
+      <p>Copy my email address:</p>
+      <div class="email-box">
+        <span id="emailText">thepraveenshekhawat11@gmail.com</span>
+        <button id="copyBtn" class="copy-btn">Copy</button>
+      </div>
+      <p class="copy-feedback" id="copyFeedback"></p>
+    </div>
+  </div>
 
   <footer>
     <span>© <span id="year"></span> Praveen Cold Call</span>
